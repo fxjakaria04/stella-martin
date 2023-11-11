@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 60px;
+    width: 100vw;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-content {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navar-items a {
+    text-decoration: none;
+    color: black;
+}
+.navar-items a:hover {
+    color: #6d6d6d;
+}
+.navbar-item3 a {
+    font-weight: bold;
+}
+.navbar-item1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-item1 img {
+    width: 50px;
+}
+.hero-section {
+    height: 500px;
+    margin-bottom: 10px;
+}
+.btn {
+    background-color: rgba(193,40,114,1);
+}
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.hero-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 70px;
+    width: 450px;
+}
+.hero-items img {
+    width: 450px;
+}
+.btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+}
+.footer-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.footer {
+    height: 200px;
+    width: 50vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-content-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-content-box h6 {
+    font-size: 1.5rem;
+    color: #00ff00;
+    margin-top: 40px;
+}
+.footer-content-box p {
+    color: #000000;
+    font-family: 'PT Sans', Arial;
+    font-size: 12.0pt;
+    font-variant: normal;
+    font-weight: 700;
+    vertical-align: baseline;
+    margin: 10px 0px;
+}
+footer {
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgba(161,0,78,1);
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer ul li{
+    margin: 1px 10px;
+}
+footer ul li a {
+    color: rgba(161,0,78,1);
+}
+.ancor {
+    text-decoration: none;
+}
